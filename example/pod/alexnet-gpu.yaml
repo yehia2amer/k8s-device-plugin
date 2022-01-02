@@ -16,4 +16,4 @@ spec:
       args: ["python3 benchmarks/scripts/tf_cnn_benchmarks/tf_cnn_benchmarks.py --model=alexnet; trap : TERM INT; sleep infinity & wait"]
       resources:
         limits:
-          amd.com/gpu: 1 # requesting a GPU
+          amd.com/gpu: 2 # requesting a GPU
